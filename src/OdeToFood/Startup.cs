@@ -54,6 +54,8 @@ namespace OdeToFood
                 });
             }
 
+            app.UseFileServer();            
+
             app.UseWelcomePage(new WelcomePageOptions
             {
                 Path = "/welcome"
