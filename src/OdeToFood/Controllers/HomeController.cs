@@ -9,7 +9,7 @@ namespace OdeToFood.Controllers
         {
             var model = new Restaurant { Id = 1, Name = "The House of Kobe" };
 
-            return new ObjectResult(model);
+            return View(model);
         }
     }
 }
